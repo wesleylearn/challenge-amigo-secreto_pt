@@ -16,6 +16,10 @@ Este projeto é parte do programa **Oracle One**, e foi desenvolvido como um des
 - **CSS**: Estilização da interface.
 - **JavaScript**: Lógica de funcionamento, manipulação do DOM e interatividade.
 
+## Deploy
+
+O deploy foi feito usando o github pages, em [https://wesleylearn.github.io/challenge-amigo-secreto_pt/](https://wesleylearn.github.io/challenge-amigo-secreto_pt/).
+
 ## Estrutura do Projeto
 
 ```
@@ -27,12 +31,11 @@ Este projeto é parte do programa **Oracle One**, e foi desenvolvido como um des
 
 ## Como Utilizar
 
-1. Clone este repositório em sua máquina local.
-2. Abra o arquivo `index.html` em seu navegador.
-3. Adicione nomes de amigos utilizando o campo de entrada.
-4. Clique no botão para adicionar os amigos à lista.
-5. Após adicionar pelo menos um amigo, clique no botão de sorteio para selecionar um amigo aleatoriamente.
-6. O resultado do sorteio será exibido na tela.
+1. Acesse o site [https://wesleylearn.github.io/challenge-amigo-secreto_pt/](https://wesleylearn.github.io/challenge-amigo-secreto_pt/)
+2. Adicione nomes de amigos utilizando o campo de entrada.
+3. Clique no botão para adicionar os amigos à lista.
+4. Após adicionar pelo menos um amigo, clique no botão de sorteio para selecionar um amigo aleatoriamente.
+5. O resultado do sorteio será exibido na tela.
 
 ## Regras de Validação
 
