@@ -14,6 +14,7 @@ function adicionarAmigo(event) {
   }
 
   amigos.push(amigo);
+  atualizarListaAmigos();
   eAmigoInput.value = "";
 }
 
@@ -31,4 +32,14 @@ function validarAmigo(amigo) {
   }
 
   return true;
+}
+
+function atualizarListaAmigos() {
+  eAmigoList.innerHTML = "";
+
+  amigos.forEach((amigo) => {
+    const li = document.createElement("li");
+    li.textContent = amigo;
+    eAmigoList.appendChild(li);
+  });
 }
