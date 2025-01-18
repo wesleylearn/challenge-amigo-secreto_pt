@@ -4,9 +4,7 @@ const eAmigoInput = document.querySelector("#amigo");
 const eAmigoList = document.querySelector("#listaAmigos");
 const eAmigoResultado = document.querySelector("#resultado");
 
-function adicionarAmigo(event) {
-  event.preventDefault();
-
+function adicionarAmigo() {
   const amigo = eAmigoInput.value.trim();
 
   if (!validarAmigo(amigo)) {
@@ -42,4 +40,17 @@ function atualizarListaAmigos() {
     li.textContent = amigo;
     eAmigoList.appendChild(li);
   });
+}
+
+function sortearAmigo() {
+  if (amigos.length === 0) {
+    window.alert("Adicione ao menos um amigo antes de sortear.");
+    return;
+  }
+
+  const randIndex = Math.floor(Math.random() * amigos.length);
+  const resultadoAmigo = amigos[randIndex];
+  const resultadoMessage = `Parabéns, o sorteado foi ${resultadoAmigo}`;
+
+  eAmigoResultado.textContent = resultadoMessage;
 }
